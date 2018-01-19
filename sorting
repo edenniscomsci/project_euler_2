@@ -1,0 +1,12 @@
+from random import randint
+random  = []
+sort = []
+#making random list 
+for i in range (10):
+    random.append(randint(0, 100))
+print(random)
+#sorting random list (selection)
+#get smallest number
+#sorted_list.append(smallest)
+#remove that found number
+#continue until no more numbers
